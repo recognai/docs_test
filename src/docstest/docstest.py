@@ -10,6 +10,7 @@ class DocsTest:
     def __init__(self, a: str, b: Optional[float] = None):
         self.a = a
         self.b = b
+        self.d = None
 
     def method_a(self, aa: int) -> bool:
         """Some method doc string
