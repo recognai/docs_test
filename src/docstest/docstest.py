@@ -11,6 +11,7 @@ class DocsTest:
         self.a = a
         self.b = b
         self.d = None
+        self.e = None
 
     def method_a(self, aa: int) -> bool:
         """Some method doc string
